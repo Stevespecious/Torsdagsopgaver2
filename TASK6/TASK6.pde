@@ -9,7 +9,7 @@ int smaller;
     int a = 7, b = 42;
     minimum(a,b);
     if (smaller == a) {
-      println("a is the smallest!");
+      println(a +" is the smallest!");
     }
   }
   int minimum(int a, int b) {
