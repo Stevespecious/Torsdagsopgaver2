@@ -1,10 +1,14 @@
-public class Teacher{
-  public String name;
-  public int age;
-  public boolean isFemale;
-    public Teacher (String tmpName, int tmpAge, boolean tmpIsFemale){
-      name = tmpName;
-      age = tmpAge;
-      isFemale = tmpIsFemale;
-    }
-} 
+class Teacher{
+String name;
+int age;
+boolean isMale;
+
+Teacher(String tmpName, int tmpAge, boolean tmpIsMale){
+  name=tmpName;
+  age=tmpAge;
+  isMale=tmpIsMale;
+}
+void printTeacher(){
+  println(this.name +" " +this.age);
+}
+}

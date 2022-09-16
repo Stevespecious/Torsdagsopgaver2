@@ -1,12 +1,16 @@
-public class Student{
-  public String name;
-  public int age;
-  public boolean isFemale;
-  public String datamatikerTeam;
-    public Student (String tmpName, int tmpAge, boolean tmpIsFemale, String tmpDatamatikerTeam){
-      name = tmpName;
-      age = tmpAge;
-      isFemale = tmpIsFemale;
-      datamatikerTeam = tmpDatamatikerTeam;
-    }
-} 
+class Student{
+String name;
+int age;
+boolean isMale;
+String datamatikerTeam;
+
+Student(String tmpName, int tmpAge, boolean tmpIsMale, String tmpDatamatikerTeam){
+  name=tmpName;
+  age=tmpAge;
+  isMale=tmpIsMale;
+  datamatikerTeam=tmpDatamatikerTeam;
+}
+void printStudent(){
+  println(this.name+ " " +this.age +" team: " +this.datamatikerTeam);
+}
+}

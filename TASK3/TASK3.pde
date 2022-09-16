@@ -1,8 +1,14 @@
+Teacher Teacher1;
+Student Student1;
+Student Student2;
+Student Student3;
 void setup(){
-    Teacher teacher1 = new Teacher("Tobias ",49,false);
-    Student student1 = new Student("Christian ",21,true," a");
-    Student student2 = new Student("Tobias ",21,false," a");
-    System.out.println(teacher1.name +teacher1.age);
-    System.out.println(student1.name+ +student1.age +student1.datamatikerTeam);
-    System.out.println(student2.name+ +student2.age +student2.datamatikerTeam);
+  Teacher1 = new Teacher("Jesper", 22, true);
+  Student1 = new Student("Christian", 21, true, "Hold A");
+  Student2 = new Student("Frederik", 22, true, "Hold A");
+  Student3 = new Student("Elsa", 22, false, "Hold A");
+  
+  Teacher1.printTeacher();
+  Student1.printStudent();
+  Student2.printStudent();
 }
